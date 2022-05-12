@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62, 5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  padding: 10px 16px;
+}
+
+.login_container {
+  width: 320px;
+  height: 100vh;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.login_container a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #0065ff;
+  font-size: 0.8rem;
+}
+
+.logologin {
+  width: 100%;
+}
+
+.back {
+  width: 100%;
+}
+
+.formul-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.formul {
+  display: grid;
+  grid-template-columns: 20px auto;
+  gap: 20px;
+  align-items: center;
+}
+
+.Signup-tittle {
+  grid-column: 1 / span 2;
+  color: black;
+}
+
+.formul input {
+  border: none;
+  border-image: white;
+  border-bottom: 1px solid #a8b0bd;
+  color: -internal-light-dark(#a8b0bd, white);
+  height: 30px;
+  padding: 4px;
+}
+
+.formul-forgot-pwd {
+  color: #0065ff;
+  justify-self: end;
+  grid-column: 1 / span 2;
+  margin-bottom: 20px;
+}
+
+.button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #0065ff;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.login_container .button-secun {
+  width: 95%;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 20px auto;
+  background-color: #f1f5f6;
+  border-radius: 10px;
+  text-decoration: none;
+  justify-content: center;
+  gap: 40px;
+  margin: 20px 0;
+  font-size: 16px;
+}
+
+.button-secun img {
+  width: 100%;
+}
+
+.button-secun p {
+  color: black;
+  font-weight: bold;
+}
+
+.or {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto 40px auto;
+  margin-top: 20px;
+}
+
+.or p {
+  color: #a8b0bd;
+}
+
+.container-or {
+  justify-self: center;
+}
+
+.container-left-right {
+  align-self: center;
+}
+
+.left,
+.right {
+  height: 2px;
+  width: 100%;
+  background-color: #a8b0bd;
+}
+
+.Singup_container,
+.text-booton {
+  color: #a8b0bd;
+  margin-bottom: 10px;
+  font-size: 0.8rem;
+}
