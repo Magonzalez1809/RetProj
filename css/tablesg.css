@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.signup_container {
+  max-width: none;
+  grid-template-columns: 400px 340px;
+  grid-template-areas: "logo formul";
+  gap: 40px;
+}
+
+.logo {
+  position: relative;
+  grid-area: logo;
+  align-self: center;
+  justify-self: center;
+}
+
+.img_back_container {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+
+.formul-container {
+  align-self: center;
+  justify-self: center;
+  grid-area: formul;
+}
